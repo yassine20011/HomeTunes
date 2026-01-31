@@ -19,8 +19,6 @@ HomeTunes lets you build a private offline music library from YouTube using your
 
 ### Overview
 
-HomeTunes lets you download music from YouTube and build your personal offline music library. The system consists of:
-
 - **Backend Server**: Python/FastAPI server that downloads and processes YouTube audio (M4A/AAC) running on your local home server.
 - **Mobile App**: Native Android app (Kotlin/Jetpack Compose) that manages your library and plays music offline
 
