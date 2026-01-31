@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.HomeTunes" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0f0f1a</item>
+        <item name="android:navigationBarColor">#0f0f1a</item>
+        <item name="android:windowBackground">#0f0f1a</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.HomeTunes.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0f0f1a</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenIconBackgroundColor">#1a1a2e</item>
+        <item name="postSplashScreenTheme">@style/Theme.HomeTunes</item>
+    </style>
+</resources>
